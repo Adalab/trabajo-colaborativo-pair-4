@@ -13,11 +13,11 @@ function handleClick(){
 }
 
 function clickOff(){
-    head.classList.add('hover');
+    head.classList.toggle('hover');
     console.log('click');
 }
 
 
 
 head.addEventListener('click' , handleClick);
-head.addEventListener('onmouseout' , clickOff);
+head.addEventListener('mouseout' , clickOff);
